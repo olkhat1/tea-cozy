@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    text-align: center;
+    font-family: 'Helvetica';
+    background-color: black;
+    font-size: 22px;
+    color: seashell
+    
+}
+
+body {
+
+    padding-top: 69px;
+}
+
+main {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 40px auto;
+    
+  }
+
+/** Navigation **/
+
+nav {
+    
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+img {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: auto;
+}
+
+
+
+li {
+    text-decoration: underline;
+}
+
+/** Mission section **/
+
+
+
+#mission {
+    background-image: url(/resources/img/img-mission-background.jpg);
+    background-position: center center;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
+
+}
+
+
+.our-mission  {
+    background-color: black;
+    width: 1400px;
+    padding: 15px 15px;
+    line-height: 1.5em;
+   
+    
+
+}
+
+/** Month section **/
+
+
+.main-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.month-text {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+
+}
+
+
+
+.picture-container img{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+
+}
+    
+
+/** Locations section **/
+    
+#locations {
+    background-image: url(/resources/img/img-locations-background.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+    .locations {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 15px;
+    }
+
+    .box{
+        
+        background-color: black;
+        color: seashell;
+        width: 300px;
+        line-height: 70px;
+
+    }
+
+    /** Contact information section **/
+
+    .contact-information {
+
+        line-height: 70px;
+    }
+
+    /** Footer **/
+
+    footer {
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
